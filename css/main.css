@@ -1,0 +1,26 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {
+  height: 100%;
+  color: rgb(171 178 215);
+  background-image: linear-gradient(white, black);
+  }
+.bgimg {
+  /* background-color: black; */
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#m-name{
+  display: none;
+  width: 75%;
+}
+
+@media only screen and (max-width: 900px) {
+  #m-name {
+    display: block;
+  }
+  #d-name{
+    display: none;
+  }
+}
